@@ -23,4 +23,4 @@ value
 ('uncle', 'ben', 'kknjJNJJNJj82nuncle_benkmskmksKJMKSk8');
 
 select * from users
-where binary attribute like concat('_%!%', first_name, '!_', second_name,char(37), '!%%') escape '!';
+where binary attribute like concat('_%!%', first_name, '!_', second_name, '!%%') escape '!';
